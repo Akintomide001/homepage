@@ -445,6 +445,7 @@ li a:hover{
     }
     body{
         max-width: 100%;
+        overflow-x: hidden;
     }
     .underline{
         height: 300px;
@@ -539,13 +540,19 @@ li a:hover{
         margin-left: 10px;
         margin-right: 5px;
     }
+    #name{
+        width: 95%;
+    }
+    #comments{
+        width: 95%;
+    }
     .iput{
-        width: 100%;
+        width: 95%;
         border-radius: 0%;
         border:  1px solid #e7e7e7;
     }
     .aput{
-        width: 100%;
+        width: 95%;
         border-radius: 0%;
         margin-left: -1px;
         border:  1px solid #e7e7e7;
@@ -568,6 +575,9 @@ li a:hover{
     .info{
         margin-top: 20px;
         width: 400px;
+    }
+    .t-1{
+        font-size: 28px;
     }
     
     
