@@ -21,12 +21,22 @@
     <header>
         <nav>
             <div class="desktop-nav">
-                <div class="logo">
+                <div class="hamburger">
+                    <div class="open-menu">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="close-menu">
+                        <i class="fa fa-times"></i>
+                    </div>
+    
+                </div>
+                                <div class="logo">
                     <a href="/">
                         <img class="logo-png" src="./logo.png" alt="">
                     </a>
                 </div>
                 <div class="nav-menu">
+                    <div class="line">
                     <ul class="underline">
                         <li class="list"><a class="list-1" href="">HOME</a></li>
                         <li class="list"><a class="list-1" href="">ABOUT</a></li>
@@ -35,9 +45,12 @@
                         <li class="list"><a class="list-1" href="">PRICING</a></li>
                         <li class="list"><a class="list-1" href=""> TEAM</a></li>
                         <li class="list"><a class="list-1" href=""> CONTACT</a></li>
+                        </ul>
+                    </div>
                         <hr>
-                        <button type="submit">LOGIN</button>
-                    </ul>
+                        <div class="b-x">
+                        <button type="submit" class="b-x1">LOGIN</button>
+                        </div>
 
                 </div>
             </div>
@@ -82,7 +95,7 @@
     </section>
     <section>
         <div class="container-2">
-            <div>
+            <div class="big">
                 <h1 id="t4">WHAT WE <span>OFFER</span></h1>
                 <p id="t5">Understanding the easy to use process</p>
                 <hr id="hr-1">
@@ -256,7 +269,7 @@
             }
         }
     </script>
-</body>
+
 <footer>
     <div class="container-5">
         <div class="footer-logo">
@@ -312,5 +325,22 @@
         </div>
     </div>
 </footer>
+<script>
+    const mainMenu = document.querySelector('.underline')
+    const closeMenu = document.querySelector('.close-menu')
+    const openMenu = document.querySelector('.open-menu')
+
+    openMenu.addEventListener('click',show);
+    closeMenu.addEventListener('click',close);
+
+    function show(){
+        mainMenu.style.display = 'flex';
+        mainMenu.style.top = '0';
+    }
+    function close(){
+        mainMenu.style.top = '-100%';
+    }
+</script>
+</body>
 
 </html>

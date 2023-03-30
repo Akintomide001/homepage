@@ -429,3 +429,148 @@ li a:hover{
 #valid{
     color: #ff5a6e;
 }
+
+.open-menu{
+    cursor: pointer;
+    display: none;
+
+}
+.close-menu{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 501px){
+    *{
+        max-width: 100%;
+    }
+    body{
+        max-width: 100%;
+    }
+    .underline{
+        height: 300px;
+        margin-top: 50px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -10;
+        position: relative;
+        flex-direction: column;
+        justify-content: right;
+        background-color: #ff5a6e;
+        display: none;
+    }
+    .close-menu{
+        cursor: pointer;
+        position: absolute;
+    }
+    .open-menu{
+        display: block;
+    }
+    .container-1{
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .forms{
+        display: block;
+    }
+    .side1{
+        width: 357px;
+        margin-top: 80px;
+    }
+    .side2{
+        background-color: #6a6f78ce;
+        height: 500px;
+        width: 100%;
+        border-radius: 7px;
+        display: block;
+        margin: 0;
+
+    }
+    .container-2{
+        text-align: center;
+        margin-top: 50px;
+    
+    }
+    #hr-1{
+        border-top: #ff5a6e solid;
+        width: 50px;
+        margin-left: 46%;
+        position: absolute;
+        border-left: none;
+    }
+    #t4{
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .container-3b{
+        display: block;
+    }
+    .container-5{
+        width: 100%;
+        padding: 6% 6%;
+        display: block;
+        margin-top: 50px;
+    }
+    .main{
+        margin-top: 20px;
+        display: block;
+    }
+    .sub-foot1{
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .container{
+        height: 100%;
+        padding-top: 5%;
+        background-image: url(./2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container-4{
+        margin: 0;
+    }
+    .main-a{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .iput{
+        width: 100%;
+        border-radius: 0%;
+        border:  1px solid #e7e7e7;
+    }
+    .aput{
+        width: 100%;
+        border-radius: 0%;
+        margin-left: -1px;
+        border:  1px solid #e7e7e7;
+    }
+    .main{
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+    
+    }
+    .svg-4{
+        width: 550px;
+        margin: 0;
+    }
+    .sub-foot2{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .info{
+        margin-top: 20px;
+        width: 400px;
+    }
+    
+    
+    
+    
+}
