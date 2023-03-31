@@ -440,18 +440,18 @@ li a:hover{
 }
 
 .open-menu{
-    font-size: 18px;
+    font-size: 25px;
     color: black;
     cursor: pointer;
     display: none;
-    margin-top: 7px;
+    margin-top: 4px;
 
 }
 .close-menu{
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
     display: none;
-    margin-top: 7px;
+    margin-top: 4px;
     color: black;
 }
 @media screen and (max-width: 501px){
