@@ -41,6 +41,9 @@ hr{
     display: flex;
     margin-top: 5px;
 }
+.menu{
+    display: none;
+}
 .list{
     padding: 7px 15px;
 }
@@ -60,7 +63,7 @@ button{
     width: 85px;
     border-radius: 16px;
     border: 1px solid #f0f0f0;
-    background-color: red;
+    background-color: white;
 }
 /*section1*/
 .container{
@@ -442,10 +445,14 @@ li a:hover{
 @media screen and (max-width: 501px){
     *{
         max-width: 100%;
+
     }
     body{
         max-width: 100%;
-        overflow-x: hidden;
+
+    }
+    .items{
+        width: fit-content;
     }
     hr{
         border-left: 1px solid #f0f0f0;
@@ -537,6 +544,7 @@ li a:hover{
     }
     .container{
         height: 100%;
+        overflow-x: hidden;
         padding-top: 5%;
         background-image: url(./2.jpg);
         background-size: cover;
@@ -547,8 +555,9 @@ li a:hover{
     }
     .main-a{
         width: 100%;
-        margin-left: 10px;
-        margin-right: 5px;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 5px;
     }
     #name{
         width: 95%;
@@ -564,8 +573,8 @@ li a:hover{
     .aput{
         width: 95%;
         border-radius: 0%;
-        margin-left: -1px;
         border:  1px solid #e7e7e7;
+        margin-left: -1px;
     }
     .main{
         margin-top: 20px;
@@ -589,9 +598,24 @@ li a:hover{
     .t-1{
         font-size: 28px;
     }
-    button{
-        margin-right: 15px;
+    
+    #hr-3{
+        border-top: 1px #e7e7e7 solid;
+        width: 95%;
+        border-left: none;
+        margin-top: 10px;
+        
     }
+    .main-b{
+        margin-left: 0;
+        padding-left: 12px;
+    }
+    #list-a{
+        margin-top: 65px;
+    }
+    
+    
+    
     
     
     
